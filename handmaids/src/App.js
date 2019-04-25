@@ -1,23 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import mayday from './mayday.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+    <h2>Resist Sister</h2>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={mayday} className="App-logo" alt="mayday" />
+        
+       
       </header>
     </div>
   );
