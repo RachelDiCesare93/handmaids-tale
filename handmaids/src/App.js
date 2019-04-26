@@ -30,12 +30,13 @@ class App extends Component {
     <h2>Resist Sister</h2>
       <header className="App-header">
         <img src={mayday} className="App-logo" alt="mayday" />
-        </header>
         <div className="handmaid-list">
         {this.state.handmaids.map(handmaid => (
           <HandmaidDetails key={handmaid.id} handmaid={handmaid} />
         ))}
         </div>
+        </header>
+     
     </div>
   );
 }

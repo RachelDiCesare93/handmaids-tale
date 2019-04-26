@@ -16,7 +16,7 @@ class Handmaid extends Component {
 
     fetchHandmaid = id => {
     axios
-      .get(`http://localhost:500/api/handmaids/${id}`)
+      .get(`http://localhost:5000/api/handmaids/${id}`)
       .then(response => {
           this.setState(() => ({handmaid: response.data}));
       })
